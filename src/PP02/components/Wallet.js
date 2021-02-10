@@ -131,7 +131,7 @@ class Wallet extends React.Component {
     render() {
         return (
             <div>
-                <h1>WALLET</h1>
+                <h2>WALLET</h2>
                 <form onSubmit={this.addItem.bind(this)}>
 
                     <select
@@ -163,9 +163,9 @@ class Wallet extends React.Component {
                     <input type="submit" value="Add" />
                 </form>
 
-                <h2 style={{ color: "purple" }}>NET BALANCE: $ {this.state.net_balance}</h2>
+                <h3 style={{ color: "purple" }}>NET BALANCE: $ {this.state.net_balance}</h3>
 
-                <h2 style={{ color: "green" }}>INCOME: $ + {this.state.total_income}</h2>
+                <h3 style={{ color: "green" }}>INCOME: $ + {this.state.total_income}</h3>
                 <ul style={{ listStyleType: "none" }}>
                     {
                         this.state.income.map(
@@ -178,7 +178,7 @@ class Wallet extends React.Component {
                     }
                 </ul>
 
-                <h2 style={{ color: "red" }}>EXPENSES: $ - {this.state.total_expenses}</h2>
+                <h3 style={{ color: "red" }}>EXPENSES: $ - {this.state.total_expenses}</h3>
                 <ul style={{ listStyleType: "none" }}>
                     {
                         this.state.expenses.map(

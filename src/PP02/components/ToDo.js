@@ -71,7 +71,7 @@ class ToDo extends React.Component {
 
         return (
             <div>
-                <h1>TO DO LIST</h1>
+                <h2>TO DO LIST</h2>
                 <form onSubmit={this.addItem.bind(this)}>
                     <input
                         type="text" value={this.state.new_todo_item} onChange={this.handleInputChange.bind(this)}
@@ -80,7 +80,7 @@ class ToDo extends React.Component {
                     <input type="submit" value="Add Task" />
                 </form>
 
-                <h2>TO DO: </h2>
+                <h3>TO DO: </h3>
                 <ul style={{ listStyleType: "none" }}>
                     {
                         this.state.todo_list.map(

@@ -1,14 +1,14 @@
 // Nusaiba Mahmood
 // ITRJS PP01
-// App.js
+// QA.js
 
 import React from 'react';
 
-class App extends React.Component {
+class QA extends React.Component {
   render() {
     return (
       <div>
-        <h1>Q/A LIST</h1>
+        <h2>Q/A LIST</h2>
         <ol>
           <li>What is the significance of Virtual DOM? How can Virtual DOM make a pagemore performant than original DOM?</li>
           <ul><li>A Virtual DOM is like a snapshot of the actual DOM that REACT makes and uses when it needs to update the DOM.
@@ -28,4 +28,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default QA;

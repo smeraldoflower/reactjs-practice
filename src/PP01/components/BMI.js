@@ -31,8 +31,8 @@ class BMI extends React.Component {
     render() {
         return (
             <div>
-                <h1>BMI</h1>
-                <h2>Your BMI: {this.state.BMI === null ? '' : this.state.BMI}</h2>
+                <h2>BMI</h2>
+                <h3>Your BMI: {this.state.BMI === null ? '' : this.state.BMI}</h3>
                 <form onSubmit={this.calculateBMI.bind(this)}>
                     <b>Height (cm): </b>
                     <input type='number' name='height' placeholder="Enter height (cm)" min='0' size='35' />

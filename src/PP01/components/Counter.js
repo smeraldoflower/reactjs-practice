@@ -46,8 +46,8 @@ class Counter extends React.Component {
     render() {
         return (
             <div>
-                <h1>COUNTER</h1>
-                <h2>Counter: {this.state.counter}</h2>
+                <h2>COUNTER</h2>
+                <h3>Counter: {this.state.counter}</h3>
                 <b>OFFSET: </b>
                 <input type='number' value={this.state.offset} onChange={this.updateOffset.bind(this)} min='0' size='35' />            <br></br>
                 <button onClick={this.increment.bind(this)}>+ INCREMENT</button>
