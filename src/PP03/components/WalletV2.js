@@ -2,7 +2,20 @@
 // ITRJS PP03
 // WalletV2.js
 
-import React from 'react';
+import React from 'react'
+
+function WalletV22() {
+
+
+    return (
+        <div>
+            
+        </div>
+    )
+}
+
+
+
 
 class WalletV2 extends React.Component {
     constructor(props) {
@@ -131,7 +144,7 @@ class WalletV2 extends React.Component {
     render() {
         return (
             <div>
-                <h2>Wallet_v2</h2>
+                <h2>FUNKY WALLET</h2>
                 <form onSubmit={this.addItem.bind(this)}>
 
                     <select
