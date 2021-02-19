@@ -16,17 +16,18 @@ function App() {
                 <h1 style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
                     Nusaiba's React APP
                 </h1>
+                
                 <div className="Nav"
                     style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}
                 >
                     <Link to='/About'><h2>About</h2></Link>
                     <Link to='/Contact'><h2>Contact</h2></Link>
-                    <Link to='/Projects'><h2>My Works</h2></Link>
+                    <Link to='/'><h2>My Works</h2></Link>
                 </div>
                 <Switch>
+                    <Route path='/' component={Projects} />
                     <Route path='/About' component={About} />
                     <Route path='/Contact' component={Contact} />
-                    <Route path='/Projects' component={Projects} />
                     <Route path='/PP01' component={PP01} />
                     <Route path='/PP02' component={PP02} />
                     <Route path='/PP03' component={PP03} />
