@@ -7,7 +7,7 @@ function Contact() {
             <br/>
             <h2>Phone: +1 234 567 8910</h2>
             <h2>Email: myemail@email.com</h2>
-            <h2>LinkedIn: <a>https://www.linkedin.com/in/iffatnusaibamahmood/</a></h2>
+            <h2>LinkedIn: https://www.linkedin.com/in/iffatnusaibamahmood/ </h2>
         </div>
     )
 }
