@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import PP01 from './PP01/PP01'
 import PP02 from './PP02/PP02'
 import PP03 from './PP03/PP03'
+import PP04 from './PP04/PP04'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Projects from './Pages/Projects'
@@ -30,6 +31,7 @@ function App() {
                     <Route path='/PP01' component={PP01} />
                     <Route path='/PP02' component={PP02} />
                     <Route path='/PP03' component={PP03} />
+                    <Route path='/PP04' component={PP04} />
                     <Route path='/' component={Projects} />
                 </Switch>
             </div>

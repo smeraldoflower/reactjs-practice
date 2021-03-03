@@ -1,0 +1,27 @@
+.Create, .CreateForm, .CreateForm input[type='text']{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 2%;
+    border: rgb(237, 247, 255) inset 1pt;
+}
+
+.CreateForm{
+    padding: 5%;
+    margin: 0%;
+    background-color: coral;
+    border: rgb(240, 141, 161) outset 5pt;
+}
+
+input[type='submit']{
+    background-color: rgb(214, 236, 255);
+    border: outset 2pt aliceblue;
+}
+
+input[type='submit']:hover, input[type='text']:focus{
+    background-color: rgba(236, 238, 135, 0.719);
+    border: inset 2.5pt rgb(237, 247, 255);
+}
